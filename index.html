@@ -16,11 +16,11 @@
         background-color: coral;
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: space-evenly;
         height: 1000px;
         align-items: center;
-        align-content: space-between;
+        
       }
 
       .item {
@@ -31,6 +31,18 @@
         font-size: 30px;
         color: white;
         width: fit-content;
+      }
+
+      .item1 {
+        order: 3;
+        flex-grow: 1;
+      }
+
+      .item4 {
+        order: -2;
+        /* align-self: stretch; */
+        flex-shrink: 2;
+        width: 100px;
       }
     </style>
   </head>
