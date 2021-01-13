@@ -10,20 +10,34 @@
     
     <title>Bootstrap4!</title>
     <style>
+      .row {
+        height: 400px;
+      }
     </style>
   </head>
   <body>
 
     <div class="container bg-secondary text-light">
-      <div class="row">
-        <div class="col-sm-3 col-lg-4 bg-primary">
+      <div class="row align-items-center justify-content-around">
+        <div class="col-sm-3 col-lg-2 bg-primary align-self-start order-12">
           1st Column
         </div>
-        <div class="col-sm-6 col-lg-4 bg-success">
+        <div class="col-sm-6 col-lg-2 bg-success order-last">
           2nd Column
         </div>
-        <div class="col-sm-3 col-lg-4 bg-danger">
+        <div class="col-sm-3 col-lg-2 bg-danger align-self-end">
           3rd Column
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-around">
+        <div class="col-3 bg-primary">
+          1st Column (2nd Row)
+        </div>
+        <div class="col-9">
+          <div class="row align-items-center justify-content-around">
+            <div class="col-6 bg-danger">Sub-col1</div>
+            <div class="col-6 bg-warning">Sub-col2</div>
+          </div>
         </div>
       </div>
     </div>
