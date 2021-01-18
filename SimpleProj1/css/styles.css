@@ -1,0 +1,19 @@
+.row {
+  height: 100vh;
+}
+
+@media (max-width: 767.98px) {
+  .nav-item, .dropdown-menu {
+    text-align: end;
+  }
+
+  #projects {
+    float: right;
+  }
+
+  .input-group {
+    margin-left: auto;
+    margin-right: 1rem;
+  }
+}
+

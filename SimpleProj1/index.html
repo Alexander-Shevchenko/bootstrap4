@@ -10,16 +10,18 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     
     <script src="https://kit.fontawesome.com/4b4be632ea.js" crossorigin="anonymous"></script>
-    
+    <link rel="stylesheet" href="css/styles.css">
+
     <title>Proj1</title>
     <!-- <style>
     </style> -->
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-md navbar-light bg-dark">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md sticky-top navbar-light bg-dark">
         <a href="#" class="navbar-brand ml-3"><i class="fas fa-child text-warning fa-2x"></i></a>
-        <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav">
+        <button type="button" class="navbar-toggler bg-light mr-3" data-toggle="collapse" data-target="#nav">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -28,7 +30,7 @@
                 <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#">Home</a></li>
                 <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#">Skills</a></li>
                 <li class="nav-item dropdown"><a class="nav-link text-light text-uppercase font-weight-bold px-3 dropdown-toggle" data-toggle="dropdown" href="#">Projects</a>
-                    <div class="dropdown-menu">
+                    <div class="dropdown-menu" id="projects">
                         <a class="dropdown-item" href="#">Project 1</a>
                         <a class="dropdown-item" href="#">Project 2</a>
                         <a class="dropdown-item" href="#">Project 3</a>
@@ -39,8 +41,8 @@
                 <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#">Contact</a></li>
             </ul>
 
-            <form class="form-inline ml-3">
-                <div class="input-group">
+            <form class="form-inline mb-md-0 mb-sm-2">
+                <div class="input-group text-right">
                     <input type="text" class="form-control" placeholder="Search">
                     <div class="input-group-append">
                         <button type="button" class="btn btn-outline-secondary">
@@ -51,8 +53,16 @@
             </form>
         </div>
     </nav>
-
+    <!-- End of Navbar -->
     
+    <!-- Banned -->
+    <section>
+        <div class="container-fluid">
+            <div class="row bg-info" style="height: 100vh;"><h1>Bla!</h1></div>
+        </div>
+    </section>
+    <!-- End of Banned -->
+
     <!-- Optional JavaScript; choose one of the two! -->
     
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
