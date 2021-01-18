@@ -11,6 +11,8 @@ https://placeholder.com/
 http://ajaxload.info/ 
 
 
+https://fontawesome.com/start
+
 VScode:
     Live Server 
 
