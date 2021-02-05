@@ -1,5 +1,5 @@
-.row {
-  height: 100vh;
+.bg-dark {
+  background-color: #343a40DD!important;
 }
 
 @media (max-width: 767.98px) {
